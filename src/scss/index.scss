@@ -1,0 +1,447 @@
+
+/*--------------------------轮播图--------------------------------*/
+.carousel{
+	position: relative;
+	margin: 10px auto;
+	width: 1150px;
+	height:510px;
+	
+	.carousel-list {
+		position: relative;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 450px;
+		overflow: hidden;
+		img{
+			position: absolute;
+		}
+		.imgId1{
+				opacity:1;
+		}
+		.imgId2,.imgId3,.imgId4,.imgId5,.imgId6,.imgId7,.imgId8{
+			opacity:0;
+		}
+	}
+	.dots{
+		position:absolute;
+		left:0;
+		top:460px;
+		height:54px;
+		li{
+			float:left;
+			width:138px;
+			height:54px;
+			position: relative;
+			margin-right: 5px;
+			cursor: pointer;
+			.shadow{
+				position: absolute;
+				left:0;
+				top:0;
+				width:100%;
+				height: 100%;
+				background: #000;
+				opacity: 0.2;
+			}
+		}
+	}
+}
+/*-------------人气单品-----------------------*/
+.popularity_single{
+	width:1150px;
+	margin:80px auto 0 auto;
+	.popularity_single_top_top{
+		margin: 0 auto;
+	    width: 298px;
+	    height: 31px;
+	    line-height: 31px;
+	    border: 1px solid #000;
+	    font-size: 16px;
+	    text-align: center;
+	}
+	.popularity_single_top{
+		width:1150px;
+		margin-top:40px;
+		overflow:hidden;
+		li{
+			margin-right:6px;
+			float:left;
+			position:relative;
+			width:185px;
+			height:248px;
+			cursor:pointer;
+			&:nth-child(2){
+				width:378px;
+			}
+			.popularity_single_top_shadow,.popularity_single_top_shadow2{
+				position:absolute;
+				width: 100%;
+				height: 100%;
+				background: rgba(255, 255, 255, .2);
+				display:none;
+			}
+		}
+	}
+	.popularity_single_center{
+		width:1150px;
+		overflow:hidden;
+		margin-top:6px;
+			li{
+			margin-right:6px;
+			float:left;
+			position:relative;
+			width:185px;
+			height:248px;
+			cursor:pointer;
+			&:nth-child(5){
+				width:378px;
+			}
+			.popularity_single_top_shadow,.popularity_single_top_shadow2{
+				position:absolute;
+				width: 100%;
+				height: 100%;
+				background: rgba(255, 255, 255, .2);
+				display:none;
+			}
+		}
+	}
+	.popularity_single_bottom{
+		width:1150px;
+		overflow:hidden;
+		position:relative;
+		margin-top:6px;
+		a img{
+			width:100%;
+		}
+	}
+}
+/*------------------优选品牌---------------------------*/
+.goods_chose_brand{
+	width:1150px;
+	margin:80px auto 0 auto;
+	.goods_chose_brand_top{
+		margin: 0 auto;
+	    width: 298px;
+	    height: 31px;
+	    line-height: 31px;
+	    border: 1px solid #000;
+	    font-size: 16px;
+	    text-align: center;
+	}
+	/*------第一个轮播图---------*/
+	.goods_chose_brand_carousel_one{
+		position: relative;
+		margin: 40px auto 0 auto;
+		width: 1150px;
+		height: 175px;
+		overflow: hidden;
+		.goods_chose_brand_carousel_one_list{
+			position: absolute;
+			width: 100%;
+			li{
+				float: left;
+			}
+		}
+		.goods_chose_brand_carousel_one_btn{
+			a{
+				position: absolute;
+				top: 50%;
+				margin-top: -30px;
+				width: 40px;
+				line-height: 45px;
+				background: rgba(255, 255, 255, .5);
+				color: #000;
+				font-size: 30px;
+				text-align: center;
+			}
+			.goods_chose_brand_carousel_btn_prev{
+				left: 0;
+			}
+			.goods_chose_brand_carousel_btn_next{
+				right:0;
+			}
+		}
+	}
+	/*-----------第二个轮播图----------*/
+	.carousel_two_two{
+		position:relative;
+		width: 1150px;
+		.goods_chose_brand_carousel_two{
+			position:absolute;
+			width: 1150px;
+			margin:10px auto;
+			.goods_chose_brand_carousel_two_center,.goods_chose_brand_carousel_two_bottom{
+				margin-top:10px;
+			}
+			.goods_chose_brand_carousel_two_center a img,.goods_chose_brand_carousel_two_bottom a img{
+				margin-right:2px;
+			}
+			.goods_chose_brand_carousel_two_top{
+				overflow:hidden;
+				a img{
+					margin-right:2px;
+				}
+				.goods_chose_brand_carousel_two_top_btn{
+					display:inline-block;
+					width:185px;
+					height:82px;
+					position:relative;
+					a:nth-child(1){
+						position:absolute;
+						top:44px;
+						left:116px;
+					}
+					a:nth-child(2){
+						position:absolute;
+						top:5px;
+						left:51px;
+					}
+				}
+			}
+			.goods_chose_brand_carousel_two_center{
+				float:left;
+			}
+			.goods_chose_brand_carousel_two_bottom{
+				float:left;
+				.goods_chose_brand_carousel_two_bottom_more{
+					width:185px;
+					line-height:82px;
+					color:#000;
+					margin-left:64px;
+				}
+				.goods_chose_brand_carousel_two_bottom_more:hover{
+					border-bottom:1px solid #000;
+				}
+			}
+		}
+	}
+}
+/*------------------潮流上装------------------------*/
+.fashion_top_clothes{
+	width:1150px;
+	margin:375px auto 0 auto;
+	.fashion_top_clothes_top_top{
+		height: 33px;
+		.fashion_top_clothes_top_word{
+			margin: 0 auto;
+		    width: 298px;
+		    height: 31px;
+		    line-height: 31px;
+		    border: 1px solid #000;
+		    font-size: 16px;
+		    text-align: center;
+		}
+		a{
+			font-size:14px;
+			color:#000;
+			float:right;
+			display:block;
+			margin-top:-20px;
+		}
+		a:hover{
+			border-bottom:1px solid #000;
+		}
+	}
+	.fashion_top_clothes_top{
+		width:1150px;
+		margin:40px auto 0 auto;
+		.fashion_top_clothes_top_left{
+			width:185px;
+			float:left;
+			margin-right:8px;
+			a img{
+				width:185px;
+			}
+			a:nth-child(2) img{
+				margin-top:8px;
+			}
+		}
+		.fashion_top_clothes_center_top_images{
+			float:left;
+			li{
+				float:left;
+				cursor:pointer;
+				position:relative;
+				:nth-child(1){
+					margin-right:3px;
+				}
+				.fashion_top_clothes2_shodow{
+					position:absolute;
+					top:0;
+					left:0;
+					width: 100%;
+					height: 100%;
+					background: rgba(255, 255, 255, .2);
+					display:none;					
+				}
+				.fashion_top_clothes_shodow{
+					position:absolute;
+					top:0;
+					left:0;
+					width: 100%;
+					height: 100%;
+					background: rgba(255, 255, 255, .2);
+					display:none;		
+				}
+			}
+		}
+	}
+	.fashion_top_clothes_center{
+		width:1150px;
+		margin:8px auto 0 auto;
+		.fashion_top_clothes_center_left{
+			width:185px;
+			height:248px;
+			background:#f8f8f8;
+			float:left;
+			margin:8px 8px 8px 0;
+			li{
+				padding-top:5px;
+				margin:10px 0 0 40px;
+				height:35px;
+				a{
+					font-size:12px;
+					color:#000;
+					margin-right:45px;
+				}
+			}
+		}
+		.fashion_top_clothes_center_left_images{
+			float:left;
+			margin:8px 0 8px 0;
+			li{
+				float:left;
+				cursor:pointer;
+				position:relative;
+				:nth-child(1){
+					margin-right:3px;
+				}
+				.fashion_top_clothes2_shodow{
+					position:absolute;
+					top:0;
+					left:0;
+					width: 100%;
+					height: 100%;
+					background: rgba(255, 255, 255, .2);
+					display:none;					
+				}
+				.fashion_top_clothes_shodow{
+					position:absolute;
+					top:0;
+					left:0;
+					width: 100%;
+					height: 100%;
+					background: rgba(255, 255, 255, .2);
+					display:none;		
+				}
+			}
+		}
+	}
+	.fashion_top_clothes_bottom{
+		width:1150px;
+		margin:8px auto 0 auto;
+		overflow:hidden;
+		li{
+			position:relative;
+			float:left;
+			margin-right:8px;
+			cursor:pointer;
+			.fashion_top_clothes_bottom_shodow{
+				position:absolute;
+				top:0;
+				left:0;
+				width: 100%;
+				height: 100%;
+				background: rgba(255, 255, 255, .2);
+				display:none;
+			}
+		}
+		
+	}
+}
+.fashion_top_paths{
+	margin-top:90px;
+}
+/*-----------------------新品上架---------------------------*/
+.new_shop_list{
+	width:1150px;
+	margin:90px auto 0 auto;
+	overflow:hidden;
+	.new_shop_list_top{
+		height: 33px;
+		.new_shop_list_top_word{
+			margin: 0 auto;
+		    width: 298px;
+		    height: 31px;
+		    line-height: 31px;
+		    border: 1px solid #000;
+		    font-size: 16px;
+		    text-align: center;
+		}
+		a{
+			font-size:14px;
+			color:#000;
+			float:right;
+			display:block;
+			margin-top:-20px;
+		}
+		a:hover{
+			border-bottom:1px solid #000;
+		}
+	}
+	.new_shop_list_center_list{
+		margin-top:60px;
+		ul{
+			li{
+				width:225px;
+				float:left;
+				margin-right:5px;
+				position:relative;
+				cursor:pointer;
+				img{
+					width:225px;
+					height:295px;
+				}
+				.new_shop_list_center_list_shadow{
+					position:absolute;
+					width:100%;
+					height:100%;
+					top:0;
+					left:0;
+					background: rgba(255, 255, 255, .2);
+					display:none;
+				}
+				.new_shop_list_center_list_word{
+					width:225px;
+					margin-top:12px;
+					p{
+						color:#000;
+						font-size:12px;
+						text-align:center;
+						line-height:25px;
+					}
+				}
+			}
+		}
+	}
+	.watch_more{
+		// position:relative;
+		width: 100%;
+		text-align: center;
+		padding-top:70px;
+		overflow:hidden;
+		a{
+			display: block;
+		    height: 35px;
+		    width: 120px;
+		    margin: 0 auto 40px;
+		    background-color: #000;
+		    color: #fff;
+		    font-size: 14px;
+		    line-height: 35px;
+		    text-align: center;
+		}
+	}
+}
+

@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/*---------------------header----------------------*/
+.sign_header {
+  height: 66px;
+  margin: 0 0 20px;
+  background: #fff;
+  border-bottom: 2px solid #222;
+}
+.sign_header .sign_center_header {
+  width: 990px;
+  height: 100%;
+  margin: 0 auto;
+}
+.sign_header .sign_center_header a img {
+  float: left;
+  margin-top: 17px;
+}
+.sign_header .sign_center_header ul {
+  float: right;
+  height: 66px;
+}
+.sign_header .sign_center_header ul .sign_register, .sign_header .sign_center_header ul .my_have_buy, .sign_header .sign_center_header ul .buy_list, .sign_header .sign_center_header ul .mine_serve {
+  float: left;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-top: 28px;
+  cursor: pointer;
+}
+.sign_header .sign_center_header ul .my_have_buy {
+  position: relative;
+  height: 20px;
+  width: 60px;
+  background: url(../../img/sign_top_pull.png) no-repeat right 5px;
+}
+.sign_header .sign_center_header ul .my_have_buy .my_buy_bottom_pull {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 60px;
+  display: none;
+  background: url(../../img/sign_bottom_pull.png) no-repeat right 5px;
+}
+.sign_header .sign_center_header ul .my_have_buy .my_have_buy_hover {
+  position: absolute;
+  left: 0;
+  top: 16px;
+  width: 60px;
+  height: 62px;
+  background: #eaeceb;
+  border-top: 1px solid #ccc;
+  display: none;
+}
+.sign_header .sign_center_header ul .my_have_buy .my_have_buy_hover :nth-child(1) {
+  border-bottom: 1px solid #ccc;
+}
+.sign_header .sign_center_header ul .my_have_buy .my_have_buy_hover li {
+  text-align: center;
+  line-height: 30px;
+  font-weight: normal;
+}
+.sign_header .sign_center_header ul .my_have_buy:hover {
+  background: #eaeceb url(../../img/sign_top_pull.png) no-repeat right 5px;
+}
+
+/*---------------------中间部分------------------------*/
+.sign_in_center_center {
+  width: 990px;
+  overflow: hidden;
+  margin: 105px auto auto;
+  /*-----------------中间的右边部分-----------------------*/
+}
+.sign_in_center_center .sign_in_center_left {
+  width: 465px;
+  height: 418px;
+  float: left;
+  border-right: 1px solid #dfdfdf;
+}
+.sign_in_center_center .sign_in_center_left a img {
+  margin: 100px 0 0 55px;
+}
+.sign_in_center_center .sign_in_center_right {
+  float: left;
+  width: 449px;
+  margin-left: 75px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_one .lis_one_select {
+  width: 130px;
+  height: 28px;
+  border: 1px solid #c1c1c1;
+  font-size: 16px;
+  color: #9a9a9a;
+  outline: none;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_two_phone {
+  position: relative;
+  width: 285px;
+  height: 45px;
+  margin: 25px 0;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_two_phone span {
+  width: 57px;
+  line-height: 45px;
+  display: inline-block;
+  text-align: center;
+  border-top: 1px solid #c1c1c1;
+  border-left: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  vertical-align: bottom;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_two_phone input {
+  position: absolute;
+  left: 58px;
+  top: 0;
+  height: 45px;
+  width: 210px;
+  outline: none;
+  border: 1px solid #c1c1c1;
+  text-indent: 10px;
+  font-size: 16px;
+  vertical-align: bottom;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_three {
+  font-size: 12px;
+  overflow: hidden;
+  margin-top: 25px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_three :nth-child(1) {
+  color: #dbdbdb;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_three .change_one_times {
+  color: red;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .test_imgs {
+  float: left;
+  background: rgba(255, 255, 255, 0) no-repeat;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #e0e0e0;
+  margin: 5px 7px 0 0;
+  cursor: pointer;
+  overflow: hidden;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .test_imgs img {
+  margin-left: -120px;
+  margin-top: 0px;
+  width: 240px;
+  height: 240px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_message {
+  width: 270px;
+  overflow: hidden;
+  padding-top: 27px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_message :nth-child(1) {
+  float: left;
+  width: 160px;
+  height: 43px;
+  outline: none;
+  border: 1px solid #dbdbdb;
+  text-indent: 10px;
+  color: #a9a9a9;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_message :nth-child(2) {
+  float: left;
+  width: 100px;
+  height: 45px;
+  background: #ff1901;
+  color: #fff;
+  border: none;
+  margin-left: 8px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_phone_cue {
+  position: absolute;
+  z-index: 1000;
+  padding: 0 10px;
+  height: 30px;
+  border: 1px solid #ffbdbe;
+  background-color: #ffebeb;
+  color: red;
+  line-height: 30px;
+  top: 187px;
+  left: 778.5px;
+  display: none;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_phone_cue .phone_cue {
+  display: inline-block;
+  font-size: 12px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_phone_cue b {
+  position: absolute;
+  top: 30px;
+  left: 2px;
+  display: block;
+  width: 17px;
+  height: 9px;
+  background: url(../../img/sign_xuebi.png) no-repeat -488px -108px;
+  background-size: 595px 298px;
+}

@@ -1,0 +1,348 @@
+@charset "UTF-8";
+/*---------------------header----------------------*/
+.sign_header {
+  height: 66px;
+  margin: 0 0 20px;
+  background: #fff;
+  border-bottom: 2px solid #222;
+}
+.sign_header .sign_center_header {
+  width: 990px;
+  height: 100%;
+  margin: 0 auto;
+}
+.sign_header .sign_center_header a img {
+  float: left;
+  margin-top: 17px;
+}
+.sign_header .sign_center_header ul {
+  float: right;
+  height: 66px;
+}
+.sign_header .sign_center_header ul .sign_register, .sign_header .sign_center_header ul .my_have_buy, .sign_header .sign_center_header ul .buy_list, .sign_header .sign_center_header ul .mine_serve {
+  float: left;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-top: 28px;
+  cursor: pointer;
+}
+.sign_header .sign_center_header ul .my_have_buy {
+  position: relative;
+  height: 20px;
+  width: 60px;
+  background: url(../../img/sign_top_pull.png) no-repeat right 5px;
+}
+.sign_header .sign_center_header ul .my_have_buy .my_buy_bottom_pull {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 60px;
+  display: none;
+  background: url(../../img/sign_bottom_pull.png) no-repeat right 5px;
+}
+.sign_header .sign_center_header ul .my_have_buy .my_have_buy_hover {
+  position: absolute;
+  left: 0;
+  top: 16px;
+  width: 60px;
+  height: 62px;
+  background: #eaeceb;
+  border-top: 1px solid #ccc;
+  display: none;
+}
+.sign_header .sign_center_header ul .my_have_buy .my_have_buy_hover :nth-child(1) {
+  border-bottom: 1px solid #ccc;
+}
+.sign_header .sign_center_header ul .my_have_buy .my_have_buy_hover li {
+  text-align: center;
+  line-height: 30px;
+  font-weight: normal;
+}
+.sign_header .sign_center_header ul .my_have_buy:hover {
+  background: #eaeceb url(../../img/sign_top_pull.png) no-repeat right 5px;
+}
+
+/*------------------------中间部分---------------------------*/
+.sign_in_center .sign_in_center_top {
+  width: 990px;
+  height: 25px;
+  margin: 30px auto auto;
+  background: #f5f5f5;
+}
+.sign_in_center .sign_in_center_top p {
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+}
+.sign_in_center .sign_in_center_top p span {
+  color: red;
+}
+.sign_in_center .sign_in_center_center {
+  width: 990px;
+  overflow: hidden;
+  margin: 105px auto auto;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_left {
+  width: 465px;
+  height: 418px;
+  float: left;
+  border-right: 1px solid #dfdfdf;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_left a img {
+  margin: 100px 0 0 55px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right {
+  float: left;
+  width: 449px;
+  margin-left: 75px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .scan_code_and_title {
+  width: 280px;
+  height: 40px;
+  margin-top: -25px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .scan_code_and_title .scan_code {
+  margin-bottom: 25px;
+  background-color: #fff;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .scan_code_and_title .scan_code .scan_code_type {
+  width: 40px;
+  height: 40px;
+  background: url(../../img/sign_xuebi.png) no-repeat -369px -108px;
+  background-size: 595px 298px;
+  float: right;
+  cursor: pointer;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .scan_code_and_title .scan_code_left {
+  width: 120px;
+  height: 30px;
+  background: url(../../img/sign_xuebi.png) no-repeat -323px -70px;
+  background-size: 595px 298px;
+  float: right;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .scan_code_and_title .scan_code_left .scan_code_left_title {
+  margin-left: 11px;
+  margin-top: 6px;
+  font-size: 14px;
+  color: #9b9b9b;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .vip_sign {
+  margin-top: 30px;
+  width: 280px;
+  height: 16px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .vip_sign h2 {
+  font-size: 20px;
+  font-weight: 600;
+  float: left;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .vip_sign .vip_sign_right {
+  float: left;
+  width: 114px;
+  margin-left: 86px;
+  cursor: pointer;
+  position: relative;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .vip_sign .vip_sign_right .vip_sign_right_span {
+  color: #b9b9b9;
+  display: inline-block;
+  padding: 3px 20px 2px 26px;
+  background: url(../../img/sign_china_icon.png) no-repeat right center;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .vip_sign .vip_sign_right .vip_sign_right_uls {
+  width: 112px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  top: 22px;
+  left: 10px;
+  z-index: 1000;
+  background: #fff;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .vip_sign .vip_sign_right .vip_sign_right_uls li {
+  text-align: left;
+  padding-left: 5px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .switch {
+  margin-top: 25px;
+  position: relative;
+  margin-bottom: 25px;
+  height: 27px;
+  border-radius: 13px;
+  width: 100%;
+  background: url(../../img/sign_xuebi.png) no-repeat -323px 0;
+  background-size: 595px 298px;
+  font-size: 14px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .switch .left_select {
+  width: 146px;
+  text-align: center;
+  line-height: 27px;
+  position: absolute;
+  left: 0;
+  border-radius: 13px;
+  background-size: 595px 298px;
+  color: #fff;
+  cursor: pointer;
+  background: url(../../img/sign_xuebi.png) no-repeat -323px -37px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .switch .right_select {
+  width: 146px;
+  height: 27px;
+  text-align: center;
+  line-height: 27px;
+  border-radius: 13px;
+  position: absolute;
+  right: 168px;
+  cursor: pointer;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul {
+  overflow: hidden;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .username_phone, .sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .pass_code {
+  width: 440px;
+  height: 45px;
+  overflow: hidden;
+  position: relative;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .username_phone input, .sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .pass_code input {
+  text-indent: 10px;
+  width: 268px;
+  height: 43px;
+  font-size: 16px;
+  margin-bottom: 25px;
+  outline: none;
+  border: 1px solid #dbdbdb;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .username_phone .confirmMsg {
+  width: 148px;
+  height: 19px;
+  font-size: 12px;
+  padding-left: 25px;
+  display: inline-block;
+  color: red;
+  position: absolute;
+  top: 15px;
+  left: 268px;
+  display: none;
+  background: url(../../img/login_icon1.png) no-repeat 10px 0;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .pass_code {
+  margin-top: 25px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .pass_code .confirmPass {
+  width: 148px;
+  height: 19px;
+  font-size: 12px;
+  padding-left: 25px;
+  display: inline-block;
+  color: red;
+  position: absolute;
+  top: 15px;
+  left: 268px;
+  display: none;
+  background: url(../../img/login_icon1.png) no-repeat 10px 0;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .test_and_img {
+  font-size: 12px;
+  overflow: hidden;
+  margin-top: 25px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .test_and_img :nth-child(1) {
+  color: #dbdbdb;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .test_and_img .change_one_times {
+  color: red;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .test_imgs {
+  float: left;
+  background: rgba(255, 255, 255, 0) no-repeat;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #e0e0e0;
+  margin: 5px 7px 0 0;
+  cursor: pointer;
+  overflow: hidden;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .test_imgs img {
+  margin-left: -120px;
+  margin-top: 0px;
+  width: 240px;
+  height: 240px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .submit_login_kuang input {
+  width: 270px;
+  height: 45px;
+  background: #ff1901;
+  color: #fff;
+  margin-top: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 3px;
+  font-size: 16px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .remeber_submit {
+  height: 15px;
+  font-size: 12px;
+  margin-top: 25px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .remeber_submit :nth-child(1), .sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .remeber_submit :nth-child(2), .sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .remeber_submit :nth-child(3) {
+  color: #b9b9b9;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .remeber_submit :nth-child(1) {
+  padding-left: 20px;
+  margin-right: 55px;
+  background: url(../../img/remember_login.png) no-repeat left center;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .remeber_submit :nth-child(4) {
+  color: #ff1901;
+  margin-left: 3px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .login_icon {
+  width: 235px;
+  height: 30px;
+  margin: 25px 0 25px 20px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .login_icon a {
+  display: table-cell;
+  width: 67px;
+  height: 30px;
+  background-size: 100% 100%;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .login_icon a span {
+  display: inline-block;
+  margin-right: 35px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .login_icon :nth-child(1) .weixin {
+  width: 30px;
+  height: 30px;
+  background: url(../../img/sign_xuebi.png) no-repeat -527px -70px;
+  background-size: 595px 298px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .login_icon :nth-child(2) .qq {
+  width: 30px;
+  height: 30px;
+  background: url(../../img/sign_xuebi.png) no-repeat -489px -70px;
+  background-size: 595px 298px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .login_icon :nth-child(3) .weibo {
+  width: 30px;
+  height: 30px;
+  background: url(../../img/sign_xuebi.png) no-repeat -565px -70px;
+  background-size: 595px 298px;
+}
+.sign_in_center .sign_in_center_center .sign_in_center_right .input_sign ul .login_icon :nth-child(4) .aLipay {
+  width: 30px;
+  height: 30px;
+  background: url(../../img/sign_xuebi.png) no-repeat -451px -70px;
+  background-size: 595px 298px;
+}

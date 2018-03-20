@@ -1,0 +1,78 @@
+// yohobuy有货的下拉菜单
+$('.header_left_one').mouseenter(function(){
+	$('.header_left_menu').css('display','block');
+});
+$('.header_left_one').mouseleave(function(){
+	$('.header_left_menu').css('display','none');
+});
+$('.header_menu_yoho').mouseover(function(){
+	$(this).text('集团官网').css('cursor','pointer');
+});
+$('.header_menu_yoho_boys').mouseover(function(){
+	$(this).text('男生潮流').css('cursor','pointer');
+});
+$('.header_menu_yoho_girls').mouseover(function(){
+	$(this).text('男生潮流').css('cursor','pointer');
+});
+$('.header_menu_yoho_mars').mouseover(function(){
+	$(this).text('女生潮流').css('cursor','pointer');
+});
+$('.header_menu_yoho_hood').mouseover(function(){
+	$(this).text('潮流嘉年华').css('cursor','pointer');
+});
+$('.header_menu_yoho').mouseout(function(){
+	$(this).text('YOHO!').css('cursor','pointer');
+});
+$('.header_menu_yoho_boys').mouseout(function(){
+	$(this).text('YOHO!BOYS').css('cursor','pointer');
+});
+$('.header_menu_yoho_girls').mouseout(function(){
+	$(this).text('YOHO!GRILS').css('cursor','pointer');
+});
+$('.header_menu_yoho_mars').mouseout(function(){
+	$(this).text('Mars').css('cursor','pointer');
+});
+$('.header_menu_yoho_hood').mouseout(function(){
+	$(this).text('YO!HOOD').css('cursor','pointer');
+});
+//划过客户服务
+$('.shopping_car').mouseover(function(){
+	$('.shopping_car_hover').slideToggle();
+});
+$('.shopping_car').mouseout(function(){
+	$('.shopping_car_hover').slideToggle();
+});
+//二维码
+$('.fllow').mouseover(function(){
+	$('.fllow_erweima').css('display','block');
+});
+$('.fllow').mouseout(function(){
+	$('.fllow_erweima').css('display','none');
+});
+
+$('.phone').mouseover(function(){
+	$('.phone_erweima').css('display','block');
+});
+$('.phone').mouseout(function(){
+	$('.phone_erweima').css('display','none');
+});
+
+//定位二维码
+$('.fixed_x').click(function(){
+	$('.fixed_erweima').css('display','none');
+});
+//划过购物车时
+$('.mine_for').mouseover(function(){
+	$('.mine_for_hover').css('display','block');
+});
+$('.mine_for').mouseout(function(){
+	$('.mine_for_hover').css('display','none');
+});
+
+//划过列表显示菜单
+$('.menu_list_cloth_cloth,.menu_list_new_list_famous,.menu_list_new_list_famous_two').mouseover(function(){
+	$('.menu_list_cloth').css('display','block');
+});
+$('.menu_list_cloth_cloth,.menu_list_new_list_famous,.menu_list_new_list_famous_two').mouseout(function(){
+	$('.menu_list_cloth').css('display','none');
+});
