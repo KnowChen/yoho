@@ -66,15 +66,16 @@
 
 /*---------------------中间部分------------------------*/
 .sign_in_center_center {
-  width: 990px;
+  width: 1150px;
   overflow: hidden;
   margin: 105px auto auto;
   /*-----------------中间的右边部分-----------------------*/
 }
 .sign_in_center_center .sign_in_center_left {
-  width: 465px;
+  width: 450px;
   height: 418px;
   float: left;
+  margin-left: 53px;
   border-right: 1px solid #dfdfdf;
 }
 .sign_in_center_center .sign_in_center_left a img {
@@ -83,7 +84,7 @@
 .sign_in_center_center .sign_in_center_right {
   float: left;
   width: 449px;
-  margin-left: 75px;
+  padding-left: 80px;
 }
 .sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_one .lis_one_select {
   width: 130px;
@@ -173,6 +174,175 @@
   border: none;
   margin-left: 8px;
 }
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_pass_word {
+  width: 270px;
+  padding-top: 27px;
+  position: relative;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_pass_word input {
+  width: 268px;
+  height: 43px;
+  outline: none;
+  border: 1px solid #dbdbdb;
+  text-indent: 10px;
+  color: #a9a9a9;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_pass_word .pass_intensity {
+  overflow: hidden;
+  margin-top: 5px;
+  width: 270px;
+  height: auto;
+  text-align: right;
+  color: #b9b9b9;
+  cursor: pointer;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_pass_word .pass_intensity .low, .sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_pass_word .pass_intensity .mid, .sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_pass_word .pass_intensity .high {
+  font-size: 12px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_pass_word .pass_intensity .low {
+  background: #e8e8e8;
+  padding: 1px 10px;
+  height: 15px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_pass_word .pass_intensity .mid {
+  padding: 1px 10px;
+  height: 15px;
+  background: #e8e8e8;
+  text-align: center;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_pass_word .pass_intensity .high {
+  padding: 1px 10px;
+  height: 15px;
+  background: #e8e8e8;
+  text-align: center;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_pass_word .pass_point {
+  position: absolute;
+  top: 22px;
+  left: 285px;
+  padding-top: 7px;
+  width: 160px !important;
+  height: 72px;
+  font-size: 12px;
+  display: none;
+  background-size: 595px 298px;
+  background: url(../../img/sign_xuebi.png) no-repeat -148px -158px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_pass_word .pass_point .pass_point_one, .sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_pass_word .pass_point .pass_point_two {
+  position: relative;
+  margin-left: 15px;
+  padding-left: 15px;
+  height: 22px;
+  color: #b9b9b9;
+  font-size: 12px;
+  line-height: 22px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_pass_word .pass_point .pass_point_one i, .sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .lis_pass_word .pass_point .pass_point_two i {
+  position: absolute;
+  top: 50%;
+  left: -2px;
+  margin: -7px 0 0;
+  width: 14px;
+  height: 14px;
+  background: url(../../img/sign_xuebi.png) no-repeat -514px -35px;
+  background-size: 595px 298px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .fashion_code {
+  width: 270px;
+  padding-top: 27px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .fashion_code input {
+  width: 268px;
+  height: 43px;
+  outline: none;
+  border: 1px solid #dbdbdb;
+  text-indent: 10px;
+  color: #a9a9a9;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .checkbox_input {
+  font-size: 12px;
+  margin-top: 30px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .checkbox_input span {
+  color: #a9a9a9;
+  margin-left: 8px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .checkbox_input a {
+  color: red;
+  margin-left: 5px;
+  border-bottom: 1px solid red;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .quick_submit {
+  width: 325px;
+  margin-top: 25px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .quick_submit input {
+  float: left;
+  width: 268px;
+  height: 43px;
+  outline: none;
+  text-align: center;
+  color: #fff;
+  background: #555;
+  border: none;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .quick_submit .quick_img {
+  float: left;
+  margin-left: 10px;
+  position: relative;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .quick_submit .quick_img a {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #b0b0b0;
+  box-sizing: border-box;
+  text-align: center;
+  display: inline-block;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .quick_submit .quick_img i {
+  width: 28px;
+  height: 28px;
+  background: url(../../img/sign_xuebi.png) no-repeat -452px -108px;
+  background-size: 595px 298px;
+  display: inline-block;
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  cursor: pointer;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .quick_submit .quick_img .quick_img_hover {
+  position: absolute;
+  bottom: 0;
+  left: 55px;
+  width: 231px;
+  height: 290px;
+  background-color: #f8f8f8;
+  z-index: 1000;
+  display: none;
+  border: 1px solid #b0b0b0;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .quick_submit .quick_img .quick_img_hover .quick_hover_top {
+  position: relative;
+  background: url(../../img/hover_img.png) no-repeat;
+  margin: 32px auto 15px;
+  width: 143px;
+  height: 147px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .quick_submit .quick_img .quick_img_hover h3 {
+  height: 25px;
+  line-height: 25px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_right_uls .quick_submit .quick_img .quick_img_hover .done_hover {
+  display: inline-block;
+  line-height: 25px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  margin: 14px 0 0 68px;
+}
 .sign_in_center_center .sign_in_center_right .sign_in_center_phone_cue {
   position: absolute;
   z-index: 1000;
@@ -191,6 +361,33 @@
   font-size: 12px;
 }
 .sign_in_center_center .sign_in_center_right .sign_in_center_phone_cue b {
+  position: absolute;
+  top: 30px;
+  left: 2px;
+  display: block;
+  width: 17px;
+  height: 9px;
+  background: url(../../img/sign_xuebi.png) no-repeat -488px -108px;
+  background-size: 595px 298px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_password_cue {
+  position: absolute;
+  z-index: 1000;
+  padding: 0 10px;
+  height: 30px;
+  border: 1px solid #ffbdbe;
+  background-color: #ffebeb;
+  color: red;
+  line-height: 30px;
+  top: 438px;
+  left: 721.5px;
+  display: none;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_password_cue .password_cue {
+  display: inline-block;
+  font-size: 12px;
+}
+.sign_in_center_center .sign_in_center_right .sign_in_center_password_cue b {
   position: absolute;
   top: 30px;
   left: 2px;

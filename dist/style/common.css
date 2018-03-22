@@ -438,7 +438,7 @@ img {
 .fixed_erweima {
   position: fixed;
   left: 1215px;
-  z-index: 1000;
+  z-index: 1;
 }
 .fixed_erweima .fixed_x {
   display: block;
